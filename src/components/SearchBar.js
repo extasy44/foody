@@ -27,16 +27,17 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginHorizontal: 15,
     flexDirection: 'row',
+    marginBottom: 10
   },
   inputStyle: {
     flex: 1,
-    fontSize: 18,
+    fontSize: 18
   },
   iconStyle: {
     fontSize: 35,
     alignSelf: 'center',
-    marginHorizontal: 15,
-  },
+    marginHorizontal: 15
+  }
 });
 
 export default SearchBar;
